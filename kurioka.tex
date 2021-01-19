@@ -1,0 +1,130 @@
+\documentclass[11pt,oneside,openany,report]{jsbook}
+
+\usepackage[a4paper,truedimen,margin=25truemm]{geometry}
+\usepackage{cscover}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage[nobreak]{cite}
+\usepackage[a4paper,dvipdfmx,pdfdisplaydoctitle=true,%
+    bookmarks=true,bookmarksnumbered=true,bookmarkstype=toc,bookmarksopen=true,%
+    pdftitle={全天周ビデオ通信端末を用いた非対称型コミュニケーションに関する研究},%
+    pdfauthor={栗岡　保}%
+    ]{hyperref}
+\usepackage{pxjahyper}
+
+\renewcommand{\bibname}{参考文献}
+\setcounter{tocdepth}{2}
+\pagestyle{plain}
+
+\newcommand{\TODO}[1]{\textbf{[TODO: #1]}}
+%\renewcommand{\TODO}[1]{}
+
+\thesistype{学士特定課題研究論文}
+\title{全天周ビデオ通信端末を用いた非対称型コミュニケーションに関する研究}
+\author{栗岡　保}
+\studentid{17B05518}
+\affiliation{東京工業大学\\情報理工学院\\情報工学系} 
+\date{2021年1月}
+
+\supervisorname{指導教員}
+\supervisor{小池 英樹}
+%\dsupervisorname{副指導教員}
+%\dsupervisor{工学 次郎}
+
+\begin{document}
+
+\frontmatter
+\maketitle
+
+\chapter{概要}
+学士特定課題研究論文は、シングルカラムでページ数に制限はない。
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\mainmatter
+\chapter{序論}
+
+\section{本章の概要}\input{kurioka/1-1.tex}
+\section{本研究の背景}\input{kurioka/1-2.tex}
+\section{本研究の目的}
+\section{本論文の構成}
+
+\chapter{関連研究}
+%\section{本章の概要}
+\section{360度カメラに関する研究}
+\section{全天周球状ディスプレイに関する研究}
+\section{ビデオ会議中の視線に関する研究}
+\section{まとめ}
+
+\chapter{球体ディスプレイを用いた視線共有システムの提案}
+%\section{本章の概要}
+\section{従来型ビデオ会議アプリケーションの問題点}\input{kurioka/3-1.tex}
+\section{提案する視線共有システム}\input{kurioka/3-2.tex}
+\section{技術的課題}\input{kurioka/3-3.tex}
+
+\chapter{OmniEyeBall対PC間通信の実装}
+%\section{本章の概要}
+%\section{本研究の内容と提案手法}\input{kurioka/4-1.tex}
+%\section{本研究の実装}
+%  \subsection{360度カメラ}\input{kurioka/4-2-1.tex}
+%  \subsection{OmniEyeBall}\input{kurioka/4-2-2.tex}
+%  \subsection{オンラインビデオストリーミング}\input{kurioka/4-2-3.tex}
+%  \subsection{OpenCVを用いた360度パノラマ画像の処理}\input{kurioka/4-2-4.tex}
+%  \subsection{ＧＵＩアプリケーション}\input{kurioka/4-2-5.tex}
+  \section{ハードウェア実装}\input{kurioka/4-1-new.tex}
+  \section{ソフトウェア実装}
+
+\chapter{実験}
+%\section{本章の概要}
+\section{実験の目的}\input{kurioka/5-1.tex}
+\section{実験用アプリケーション}\input{kurioka/5-2.tex}
+\section{実験手順}
+  \subsection{実験設定}\input{kurioka/5-3-1.tex}
+  \subsection{実験項目}\input{kurioka/5-3-2.tex}
+  \subsection{被験者の動き}\input{kurioka/5-3-3.tex}
+\section{実験結果}
+  \subsection{定量的評価}\input{kurioka/5-4-1.tex}
+  \subsection{定性的評価}\input{kurioka/5-4-2.tex}
+\section{実験結果から得られる知見と考察}\input{kurioka/5-4-3.tex}
+
+\chapter{考察}
+%\section{本章の概要}
+\section{本システムの問題点}
+\section{本システムの応用}
+  \subsection{対話相手表示形式}
+  \subsection{横顔生成形式}
+  \subsection{おかしら会議形式}
+\section{今後の展望}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{結論}
+結論は、網羅的にかつ簡潔に。
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%\appendix
+%\chapter{定理1の証明}
+%必要に応じて、付録を載せる。
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\backmatter
+\chapter{謝辞}
+本論文の執筆にあたり、議論して頂いた関係者に感謝する．
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\bibliographystyle{jplain}
+\bibliography{references}
+\begin{thebibliography}{99}
+%  \bibitem{tokodai-xyz2015} 東工大太郎. 良い論文の書き方. \textit{Journal of XYZ}, Vol.~3, No.~4, pp. 15--34, 2015.
+  \input{kurioka/sanko.tex}
+\end{thebibliography}
+
+\end{document}
