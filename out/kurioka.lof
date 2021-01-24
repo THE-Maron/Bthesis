@@ -16,17 +16,22 @@
 \addvspace {10\jsc@mpt }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces 画像が移動する模式図}}{18}{figure.5.1}%
 \contentsline {figure}{\numberline {5.2}{\ignorespaces プレゼンターに用意したスライドの一部}}{19}{figure.5.2}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces 平面ディスプレイ使用時の5段階評価項目結果}}{22}{figure.5.3}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces OmniEyeBall使用時の5段階評価項目結果}}{22}{figure.5.4}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces 傍聴者側の実験の様子}}{21}{figure.5.3}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces プレゼンター側の実験の様子}}{21}{figure.5.4}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces 平面ディスプレイ使用時の5段階評価項目結果}}{23}{figure.5.5}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces OmniEyeBall使用時の5段階評価項目結果}}{23}{figure.5.6}%
 \addvspace {10\jsc@mpt }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces 上部分が縮小して表示される様子}}{27}{figure.6.1}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Dlibの顔検出}}{28}{figure.6.2}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces CNNの一例}}{29}{figure.6.3}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces 畳み込みのイメージ}}{30}{figure.6.4}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces プーリングのイメージ}}{30}{figure.6.5}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces 横顔が見える状況}}{31}{figure.6.6}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces 3Dモデルを撮影する様子}}{32}{figure.6.7}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces UnityCaptureを用いた他アプリケーションへの映像ストリーミング}}{33}{figure.6.8}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces 生成した横顔をOmniEyeBall上で表示させた様子}}{34}{figure.6.9}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces 上部分が縮小して表示される様子}}{28}{figure.6.1}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Dlibの顔検出}}{29}{figure.6.2}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces CNNの一例}}{30}{figure.6.3}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces 畳み込みのイメージ}}{31}{figure.6.4}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces プーリングのイメージ}}{31}{figure.6.5}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces 横顔が見える状況}}{32}{figure.6.6}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces 3Dモデルを撮影する様子}}{33}{figure.6.7}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces UnityCaptureを用いた他アプリケーションへの映像ストリーミング}}{34}{figure.6.8}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces 生成した横顔をOmniEyeBall上で表示させた様子}}{35}{figure.6.9}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces 歪みの補正前}}{37}{figure.6.10}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces 歪みの補正後}}{38}{figure.6.11}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces 特徴点マッチング}}{39}{figure.6.12}%
 \addvspace {10\jsc@mpt }
 \addvspace {10\jsc@mpt }

@@ -19,9 +19,10 @@ Warning--I didn't find a database entry for "14"
 Warning--I didn't find a database entry for "16"
 Warning--I didn't find a database entry for "10"
 Warning--I didn't find a database entry for "11"
+Warning--I didn't find a database entry for "17"
 You've used 0 entries,
             2620 wiz_defined-function locations,
-            604 strings with 4569 characters,
+            605 strings with 4571 characters,
 and the built_in function-call counts, 18 in all, are:
 = -- 0
 > -- 0
@@ -61,4 +62,4 @@ while$ -- 0
 width$ -- 0
 write$ -- 2
 is.kanji.str$ -- 0
-(There were 16 warnings)
+(There were 17 warnings)
