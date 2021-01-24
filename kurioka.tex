@@ -1,5 +1,6 @@
-\documentclass[11pt,oneside,openany,report]{jsbook}
+\documentclass[a4j,11pt,oneside,openany,report]{jsbook}
 
+\usepackage{comment}
 \usepackage[a4paper,truedimen,margin=25truemm]{geometry}
 \usepackage{cscover}
 \usepackage[dvipdfmx]{graphicx}
@@ -54,9 +55,9 @@
 
 \chapter{関連研究}
 %\section{本章の概要}
-\section{360度カメラに関する研究}
-\section{全天周球状ディスプレイに関する研究}
-\section{ビデオ会議中の視線に関する研究}
+\section{360度カメラに関する研究}\input{kurioka/2-1.tex}
+\section{全天周球状ディスプレイに関する研究}\input{kurioka/2-2.tex}
+\section{ビデオ会議に関する研究}\input{kurioka/2-3.tex}
 \section{まとめ}
 
 \chapter{球体ディスプレイを用いた視線共有システムの提案}
@@ -75,7 +76,7 @@
 %  \subsection{OpenCVを用いた360度パノラマ画像の処理}\input{kurioka/4-2-4.tex}
 %  \subsection{ＧＵＩアプリケーション}\input{kurioka/4-2-5.tex}
   \section{ハードウェア実装}\input{kurioka/4-1-new.tex}
-  \section{ソフトウェア実装}
+  \section{ソフトウェア実装}\input{kurioka/4-2-new.tex}
 
 \chapter{実験}
 %\section{本章の概要}
@@ -92,12 +93,12 @@
 
 \chapter{考察}
 %\section{本章の概要}
-\section{本システムの問題点}
+\section{本システムの問題点}\input{kurioka/6-1.tex}
 \section{本システムの応用}
-  \subsection{対話相手表示形式}
-  \subsection{横顔生成形式}
-  \subsection{おかしら会議形式}
-\section{今後の展望}
+  \subsection{対話相手表示形式}\input{kurioka/6-2-1.tex}
+  \subsection{横顔生成形式}\input{kurioka/6-2-2.tex}
+  \subsection{おかしら会議形式}\input{kurioka/6-2-3.tex}
+\section{今後の展望}\input{kurioka/6-3.tex}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

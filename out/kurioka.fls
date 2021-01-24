@@ -32,6 +32,16 @@ INPUT c:/texlive/2020/texmf-dist/tex/platex/jsclasses/jslogo.sty
 INPUT c:/texlive/2020/texmf-dist/tex/platex/jsclasses/jslogo.sty
 INPUT c:/texlive/2020/texmf-dist/tex/platex/jsclasses/jslogo.sty
 INPUT c:/texlive/2020/texmf-dist/tex/platex/jsclasses/jslogo.sty
+INPUT c:/texlive/2020/texmf-dist/tex/latex/comment/comment.sty
+INPUT c:/texlive/2020/texmf-dist/tex/latex/comment/comment.sty
+INPUT c:/texlive/2020/texmf-dist/tex/latex/comment/comment.sty
+INPUT c:/texlive/2020/texmf-dist/tex/latex/comment/comment.sty
+INPUT c:/texlive/2020/texmf-dist/tex/latex/comment/comment.sty
+INPUT c:/texlive/2020/texmf-dist/tex/latex/comment/comment.sty
+INPUT c:/texlive/2020/texmf-dist/tex/latex/comment/comment.sty
+INPUT c:/texlive/2020/texmf-dist/tex/latex/comment/comment.sty
+INPUT c:/texlive/2020/texmf-dist/tex/latex/comment/comment.sty
+INPUT c:/texlive/2020/texmf-dist/tex/latex/comment/comment.sty
 INPUT c:/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT c:/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT c:/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
@@ -506,6 +516,19 @@ INPUT extractbb -B cropbox -O fig/thetaV.png
 INPUT ./fig/thetaV.png
 INPUT ./fig/thetaV.png
 INPUT fig/thetaV.png
+INPUT ./kurioka/2-1.tex
+INPUT kurioka/2-1.tex
+INPUT ./kurioka/2-1.tex
+INPUT kurioka/2-1.tex
+INPUT c:/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
+INPUT ./kurioka/2-2.tex
+INPUT kurioka/2-2.tex
+INPUT ./kurioka/2-2.tex
+INPUT kurioka/2-2.tex
+INPUT ./kurioka/2-3.tex
+INPUT kurioka/2-3.tex
+INPUT ./kurioka/2-3.tex
+INPUT kurioka/2-3.tex
 INPUT ./kurioka/3-1.tex
 INPUT kurioka/3-1.tex
 INPUT ./kurioka/3-1.tex
@@ -514,10 +537,26 @@ INPUT ./kurioka/3-2.tex
 INPUT kurioka/3-2.tex
 INPUT ./kurioka/3-2.tex
 INPUT kurioka/3-2.tex
+INPUT ./fig/PCsideSlide.png
+INPUT ./fig/PCsideSlide.png
+INPUT fig/PCsideSlide.png
+INPUT extractbb -B cropbox -O fig/PCsideSlide.png
+INPUT ./fig/OEBsideSlideimg.png
+INPUT ./fig/OEBsideSlideimg.png
+INPUT fig/OEBsideSlideimg.png
+INPUT extractbb -B cropbox -O fig/OEBsideSlideimg.png
+INPUT ./fig/SPcase.png
+INPUT ./fig/SPcase.png
+INPUT fig/SPcase.png
+INPUT extractbb -B cropbox -O fig/SPcase.png
 INPUT ./kurioka/3-3.tex
 INPUT kurioka/3-3.tex
 INPUT ./kurioka/3-3.tex
 INPUT kurioka/3-3.tex
+INPUT ./fig/flow.png
+INPUT ./fig/flow.png
+INPUT fig/flow.png
+INPUT extractbb -B cropbox -O fig/flow.png
 INPUT ./kurioka/4-1-new.tex
 INPUT kurioka/4-1-new.tex
 INPUT ./kurioka/4-1-new.tex
@@ -525,6 +564,22 @@ INPUT kurioka/4-1-new.tex
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
+INPUT ./kurioka/4-2-new.tex
+INPUT kurioka/4-2-new.tex
+INPUT ./kurioka/4-2-new.tex
+INPUT kurioka/4-2-new.tex
+INPUT ./fig/OBSstudio.png
+INPUT ./fig/OBSstudio.png
+INPUT fig/OBSstudio.png
+INPUT extractbb -B cropbox -O fig/OBSstudio.png
+INPUT ./fig/streaming.png
+INPUT ./fig/streaming.png
+INPUT fig/streaming.png
+INPUT extractbb -B cropbox -O fig/streaming.png
+INPUT ./fig/convertintocircle.png
+INPUT ./fig/convertintocircle.png
+INPUT fig/convertintocircle.png
+INPUT extractbb -B cropbox -O fig/convertintocircle.png
 INPUT ./kurioka/5-1.tex
 INPUT kurioka/5-1.tex
 INPUT ./kurioka/5-1.tex
@@ -533,10 +588,26 @@ INPUT ./kurioka/5-2.tex
 INPUT kurioka/5-2.tex
 INPUT ./kurioka/5-2.tex
 INPUT kurioka/5-2.tex
+INPUT ./fig/OEBimgSlide.png
+INPUT ./fig/OEBimgSlide.png
+INPUT fig/OEBimgSlide.png
+INPUT extractbb -B cropbox -O fig/OEBimgSlide.png
+INPUT ./fig/PCimgSlide.png
+INPUT ./fig/PCimgSlide.png
+INPUT fig/PCimgSlide.png
+INPUT extractbb -B cropbox -O fig/PCimgSlide.png
 INPUT ./kurioka/5-3-1.tex
 INPUT kurioka/5-3-1.tex
 INPUT ./kurioka/5-3-1.tex
 INPUT kurioka/5-3-1.tex
+INPUT ./fig/slide1.png
+INPUT ./fig/slide1.png
+INPUT fig/slide1.png
+INPUT extractbb -B cropbox -O fig/slide1.png
+INPUT ./fig/slide2.png
+INPUT ./fig/slide2.png
+INPUT fig/slide2.png
+INPUT extractbb -B cropbox -O fig/slide2.png
 INPUT ./kurioka/5-3-2.tex
 INPUT kurioka/5-3-2.tex
 INPUT ./kurioka/5-3-2.tex
@@ -553,10 +624,74 @@ INPUT ./kurioka/5-4-2.tex
 INPUT kurioka/5-4-2.tex
 INPUT ./kurioka/5-4-2.tex
 INPUT kurioka/5-4-2.tex
+INPUT ./fig/boxplot1.png
+INPUT ./fig/boxplot1.png
+INPUT fig/boxplot1.png
+INPUT extractbb -B cropbox -O fig/boxplot1.png
+INPUT ./fig/boxplot2.png
+INPUT ./fig/boxplot2.png
+INPUT fig/boxplot2.png
+INPUT extractbb -B cropbox -O fig/boxplot2.png
 INPUT ./kurioka/5-4-3.tex
 INPUT kurioka/5-4-3.tex
 INPUT ./kurioka/5-4-3.tex
 INPUT kurioka/5-4-3.tex
+INPUT ./kurioka/6-1.tex
+INPUT kurioka/6-1.tex
+INPUT ./kurioka/6-1.tex
+INPUT kurioka/6-1.tex
+INPUT ./kurioka/6-2-1.tex
+INPUT kurioka/6-2-1.tex
+INPUT ./kurioka/6-2-1.tex
+INPUT kurioka/6-2-1.tex
+INPUT ./fig/projection1.png
+INPUT ./fig/projection1.png
+INPUT fig/projection1.png
+INPUT extractbb -B cropbox -O fig/projection1.png
+INPUT ./fig/dlib.png
+INPUT ./fig/dlib.png
+INPUT fig/dlib.png
+INPUT extractbb -B cropbox -O fig/dlib.png
+INPUT ./fig/CNNep.png
+INPUT ./fig/CNNep.png
+INPUT fig/CNNep.png
+INPUT extractbb -B cropbox -O fig/CNNep.png
+INPUT ./fig/conv.png
+INPUT ./fig/conv.png
+INPUT fig/conv.png
+INPUT extractbb -B cropbox -O fig/conv.png
+INPUT ./fig/pooling.png
+INPUT ./fig/pooling.png
+INPUT fig/pooling.png
+INPUT extractbb -B cropbox -O fig/pooling.png
+INPUT ./kurioka/6-2-2.tex
+INPUT kurioka/6-2-2.tex
+INPUT ./kurioka/6-2-2.tex
+INPUT kurioka/6-2-2.tex
+INPUT ./fig/yokogao.png
+INPUT ./fig/yokogao.png
+INPUT fig/yokogao.png
+INPUT extractbb -B cropbox -O fig/yokogao.png
+INPUT ./fig/unitycam.png
+INPUT ./fig/unitycam.png
+INPUT fig/unitycam.png
+INPUT extractbb -B cropbox -O fig/unitycam.png
+INPUT ./fig/unitycapture.png
+INPUT ./fig/unitycapture.png
+INPUT fig/unitycapture.png
+INPUT extractbb -B cropbox -O fig/unitycapture.png
+INPUT ./fig/yokoV.png
+INPUT ./fig/yokoV.png
+INPUT fig/yokoV.png
+INPUT extractbb -B cropbox -O fig/yokoV.png
+INPUT ./kurioka/6-2-3.tex
+INPUT kurioka/6-2-3.tex
+INPUT ./kurioka/6-2-3.tex
+INPUT kurioka/6-2-3.tex
+INPUT ./kurioka/6-3.tex
+INPUT kurioka/6-3.tex
+INPUT ./kurioka/6-3.tex
+INPUT kurioka/6-3.tex
 INPUT out/kurioka.bbl
 INPUT out/kurioka.bbl
 INPUT out/kurioka.bbl
