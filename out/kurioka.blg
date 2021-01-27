@@ -3,15 +3,27 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: out\kurioka.aux
 The style file: jplain.bst
 Database file #1: references.bib
+Warning--I didn't find a database entry for "4"
+Warning--I didn't find a database entry for "20"
+Warning--I didn't find a database entry for "21"
+Warning--I didn't find a database entry for "23"
+Warning--I didn't find a database entry for "24"
+Warning--I didn't find a database entry for "25"
+Warning--I didn't find a database entry for "26"
+Warning--I didn't find a database entry for "27"
+Warning--I didn't find a database entry for "29"
 Warning--I didn't find a database entry for "1"
 Warning--I didn't find a database entry for "2"
 Warning--I didn't find a database entry for "3"
-Warning--I didn't find a database entry for "4"
 Warning--I didn't find a database entry for "5"
 Warning--I didn't find a database entry for "6"
+Warning--I didn't find a database entry for "19"
+Warning--I didn't find a database entry for "15"
+Warning--I didn't find a database entry for "18"
+Warning--I didn't find a database entry for "22"
+Warning--I didn't find a database entry for "28"
 Warning--I didn't find a database entry for "7"
 Warning--I didn't find a database entry for "8"
-Warning--I didn't find a database entry for "15"
 Warning--I didn't find a database entry for "9"
 Warning--I didn't find a database entry for "12"
 Warning--I didn't find a database entry for "13"
@@ -22,7 +34,7 @@ Warning--I didn't find a database entry for "11"
 Warning--I didn't find a database entry for "17"
 You've used 0 entries,
             2620 wiz_defined-function locations,
-            605 strings with 4571 characters,
+            617 strings with 4595 characters,
 and the built_in function-call counts, 18 in all, are:
 = -- 0
 > -- 0
@@ -62,4 +74,4 @@ while$ -- 0
 width$ -- 0
 write$ -- 2
 is.kanji.str$ -- 0
-(There were 17 warnings)
+(There were 29 warnings)
