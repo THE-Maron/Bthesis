@@ -27,13 +27,13 @@ TEHTAのパノラマ画像は，以下のようにして生成される．
 2枚の画像を結合することによって全天球パノラマ映像を生成している．
 (図\ref{theta1},\ref{theta2}参照)
 
-\begin{figure}[tp]
+\begin{figure}[tbp]
   \centering
   \includegraphics[scale=0.6]{fig/thetaref1.jpg}
   \caption{画像処理の流れ\cite{4}}\label{theta1}
 \end{figure}
 
-\begin{figure}[tp]
+\begin{figure}[tbp]
   \centering
   \includegraphics[scale=0.6]{fig/thetaref2.jpg}
   \caption{つなぎ処理スティッチング\cite{4}}\label{theta2}
@@ -56,7 +56,7 @@ TEHTAのパノラマ画像は，以下のようにして生成される．
 わかりやすく示したものがテイソーの指示楕円である．(図\ref{teiso})
 高緯度領域ほど，横方向に拡大されて楕円が大きくなる様子が図示されている．
 
-\begin{figure}[tp]
+\begin{figure}[tbp]
   \centering
   \includegraphics[scale=1.0]{fig/teiso1.png}
   \includegraphics[scale=0.2]{fig/teiso2.png}
@@ -66,7 +66,7 @@ TEHTAのパノラマ画像は，以下のようにして生成される．
 全天球カメラを利用し，さらにパノラマ画像をそのまま表示するのではなく，
 臨場感のあるビデオ会議を可能にしたデバイスとしてはMeetingOWL\cite{21}がある．
 
-\begin{figure}[tp]
+\begin{figure}[tbp]
   \centering
   \includegraphics[scale=0.7]{fig/OWL.png}
   \caption{MeetingOWLの画面\cite{21}}
@@ -106,3 +106,23 @@ Tangらは，360度映像ビデオチャットアプリを作成し，それを�
 ここに挙げた問題点の1つ目は，全天球カメラの視野の広さに起因するものであり，2つ目は
 コミュニケーション自体が複雑化したことに起因するものである．視線情報の
 共有や，3次元的な複雑な情報の直観的な表示方法を考えることが重要である．
+
+Liangら\cite{31}は,正距円筒図法によりマッピングされた
+全天球パノラマ画像に対し，ユーザーが見たい方向が見やすくなるように
+動的に歪みを与える全天球画像の教示手法，OmniViewを提案している．
+全天球の長方形パノラマ画像から，キューブマップ\cite{32}\ref{Cubemap}と呼ばれる投影法へと
+変換する際に，見たい方向を拡大するような変数を加えて，長方形画像に
+再投影することで実装している．(図\ref{OmniView})
+
+\begin{figure}[tbp]
+  \centering
+  \includegraphics[scale=0.7]{fig/OmniView.png}
+  \caption{OmniView\cite{31}}\label{OmniView}
+\end{figure}
+
+\begin{figure}[p]
+  \centering
+  \includegraphics[scale=1.0]{fig/cubemap1.png}
+  \includegraphics[scale=0.6]{fig/cubemap2.png}
+  \caption{キューブマップ\cite{32}}\label{Cubemap}
+\end{figure}

@@ -6,6 +6,8 @@ Database file #1: references.bib
 Warning--I didn't find a database entry for "4"
 Warning--I didn't find a database entry for "20"
 Warning--I didn't find a database entry for "21"
+Warning--I didn't find a database entry for "31"
+Warning--I didn't find a database entry for "32"
 Warning--I didn't find a database entry for "23"
 Warning--I didn't find a database entry for "24"
 Warning--I didn't find a database entry for "25"
@@ -32,9 +34,10 @@ Warning--I didn't find a database entry for "16"
 Warning--I didn't find a database entry for "10"
 Warning--I didn't find a database entry for "11"
 Warning--I didn't find a database entry for "17"
+Warning--I didn't find a database entry for "30"
 You've used 0 entries,
             2620 wiz_defined-function locations,
-            617 strings with 4595 characters,
+            620 strings with 4601 characters,
 and the built_in function-call counts, 18 in all, are:
 = -- 0
 > -- 0
@@ -74,4 +77,4 @@ while$ -- 0
 width$ -- 0
 write$ -- 2
 is.kanji.str$ -- 0
-(There were 29 warnings)
+(There were 32 warnings)
